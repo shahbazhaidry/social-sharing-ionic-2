@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 import { NavController } from 'ionic-angular';
-import { SocialSharing } from 'ionic-native';
+import { SocialSharing } from '@ionic-native/socialsharing';
 
 @Component({
   selector: 'page-home',
@@ -9,9 +9,7 @@ import { SocialSharing } from 'ionic-native';
 })
 export class HomePage {
 
-  constructor(public navCtrl: NavController) {
-    
-  }
+  constructor(public navCtrl: NavController) {}
 
   /**
    * Opens up the share sheet so you can share using the app you like the most.
